@@ -51,3 +51,9 @@ elif opcion == 4:
 else:
     print("La opción que seleccionaste no es correcta")
 
+#COMENTARIO Y EXPLICACION
+#Segui un procedimiento parecido para las tres consignas, primero extraje las columnas que más me interesaban, en la consigna 1 y 2 es principalmente la ruta, la dirección y el valor total
+#En el caso de la primer consigna, separé las rutas por si eran exportación o importación de manera que después pudiera ordenarlas de mayor a menor para obtener las rutas más demandadas 
+#Para la consigna 1 utilicé "value_counts" para contar las veces que se repetía la ruta y para el transporte utilicé "sum" para sumar el valor de cada transporte y ver cual era el más valioso
+#En el valor, igualmenté extraje los datos que necesitaba, añadí producto también, posteriormente sumé todos los valores para que al conseguir el total del valor, pudiera obtener el valor relativo de cada ruta
+#De esa manera, al utilizar "cumsum" pudiera detectar visualmente cuando se llegara al 80%. Guardé cada grupo de instrucciones como una función de manera que pudiera ser llamada de forma sencilla al establecer el comando del usuario cuando éste tiene que elegir una opción para visualizar
